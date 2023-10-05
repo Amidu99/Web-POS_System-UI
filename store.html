@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/store_style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome/css/all.min.css">
+    <meta name="author" content="Amidu Shamika">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-primary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">POS System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="nn">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="main_section">
+    <h1>Store Manage</h1>
+    <br>
+    <section id="form_section">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="item_code" class="form-label">Item Code</label>
+                <input type="text" class="form-control" id="item_code">
+            </div>
+            <div class="col-md-6">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" class="form-control" id="description">
+            </div>
+            <div class="col-md-6">
+                <label for="unit_price" class="form-label">Unit Price</label>
+                <input type="number" class="form-control" id="unit_price">
+            </div>
+            <div class="col-md-6">
+                <label for="item_qty" class="form-label">Qty on hand</label>
+                <input type="number" class="form-control" id="item_qty">
+            </div>
+            <div class="mt-3 mb-4">
+                <button type="button" class="btn btn-success">Save</button>
+                <button type="button" class="btn btn-primary">Update</button>
+                <button type="button" class="btn btn-danger">Delete</button>
+                <button type="reset" class="btn btn-warning">
+                    <i class="fa-solid fa-arrows-rotate fa-spin" style="color: #000000;"></i>
+                </button>
+            </div>
+        </form>
+    </section>
+    <section id="table_section">
+        <div class="col col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Qty on hand</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>I-0001</td>
+                    <td>Zesta Tea</td>
+                    <td>160.00</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>I-0002</td>
+                    <td>LUX soap</td>
+                    <td>180.00</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>I-0003</td>
+                    <td>Samba Rice</td>
+                    <td>230.00</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>I-0004</td>
+                    <td>Mari Biscuit</td>
+                    <td>120.00</td>
+                    <td>40</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</section>
+<footer class="bg-primary bg-gradient">
+    <p><b>©Copyright - All Right Reserved Designed by Amidu Shamika</b></p>
+</footer>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

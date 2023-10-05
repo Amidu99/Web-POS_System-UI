@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body{
+    margin: 0;
+}
+a,p,h1,h2,h3,h4,h5{
+    font-family: 'Audiowide', cursive;
+}
+#main_section, #welcome_section, #button_section{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#main_section{
+    width: 90vw;
+}
+#welcome_section{
+    width: 84vw;
+}
+#button_section{
+    width: 60vw;
+}
+#home{
+    padding-top: 55px;
+    border: none;
+}
+#homeImg{
+    width: 40vw;
+}
+#home_btns{
+    position: relative;
+}
+#navbarNav{
+    flex-grow: 0;
+}
+.card-body>h1{
+    color: #041c96;
+}
+.nav-item>a{
+    color: #ffffff;
+}
+#brand{
+    color: #ffffff;
+}
+#brand:hover{
+    color: #041c96;
+}
+.card-img-top{
+    aspect-ratio: 16/9;
+}
+.btn-primary{
+    width: 100%;
+}
+.btnCard{
+    padding: 20px;
+}
+.tech-card{
+    border: 3px solid #1C77FD;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+body>footer{
+    position: relative;
+    height: 50px;
+    bottom: 0;
+}
+body>footer>p{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.1vw;
+    color: #ffffff;
+    font-size: 1.5vw;
+}

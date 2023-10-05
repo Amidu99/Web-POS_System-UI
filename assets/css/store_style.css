@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+body{
+    margin: 0;
+}
+a,p,h1,h2,h3,h4,h5{
+    font-family: 'Audiowide', cursive;
+}
+label{
+    font-family: 'Autour One', cursive;
+    color: #0b5ed7;
+}
+body>header{
+    position: relative;
+    height: 60px;
+}
+#navbarNav{
+    flex-grow: 0;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+#main_section{
+    width: 86vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#main_section>h1{
+    color: #041c96;
+}
+#form_section{
+    width: 66vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#table_section{
+    width: 80vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+body>footer{
+    position: relative;
+    height: 50px;
+    bottom: 0;
+}
+body>footer>p{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 0.1vw;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
